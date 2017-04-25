@@ -1,0 +1,8 @@
+C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Core\bin\Debug\TargetProcess.Core.dll
+C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Core\bin\Debug\TargetProcess.Core.pdb
+C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Core\bin\Debug\JetBrains.Annotations.dll
+C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Core\bin\Debug\NPoco.dll
+C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Core\bin\Debug\JetBrains.Annotations.xml
+C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Core\obj\Debug\TargetProcess.Core.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Core\obj\Debug\TargetProcess.Core.dll
+C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Core\obj\Debug\TargetProcess.Core.pdb
