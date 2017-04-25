@@ -1,0 +1,14 @@
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\obj\Release\TargetProcess.Services.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\TargetProcess.Services.dll.config
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\TargetProcess.Services.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\TargetProcess.Services.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\Newtonsoft.Json.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\RestSharp.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\TargetProcess.Core.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\TargetProcess.Data.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\TargetProcess.Core.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\TargetProcess.Data.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\Newtonsoft.Json.xml
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\bin\Release\RestSharp.xml
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\obj\Release\TargetProcess.Services.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Services\obj\Release\TargetProcess.Services.pdb
