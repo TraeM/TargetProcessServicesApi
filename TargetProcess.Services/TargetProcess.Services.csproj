@@ -104,6 +104,16 @@
       <LastGenOutput>services.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TargetProcess.Core\TargetProcess.Core.csproj">
+      <Project>{6a077ff5-5f7a-481d-98c8-580dac7f9fc2}</Project>
+      <Name>TargetProcess.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TargetProcess.Data\TargetProcess.Data.csproj">
+      <Project>{cae2fed8-89d5-461a-8ef7-bd481f3f1651}</Project>
+      <Name>TargetProcess.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VSToolsPath Condition="'$(VSToolsPath)' == '' and '$(VisualStudioVersion)' != '' and '$(VisualStudioVersion)' != '11.0'">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

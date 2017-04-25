@@ -6,3 +6,10 @@ C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Dto\bin\De
 C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Dto\obj\Debug\TargetProcess.Data.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Dto\obj\Debug\TargetProcess.Data.dll
 C:\Users\User\Documents\GitHub\TargetProcessIntegration\TargetProcess.Dto\obj\Debug\TargetProcess.Data.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\bin\Debug\TargetProcess.Data.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\bin\Debug\TargetProcess.Data.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\obj\Debug\TargetProcess.Data.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\obj\Debug\TargetProcess.Data.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\obj\Debug\TargetProcess.Data.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\bin\Debug\TargetProcess.Core.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\bin\Debug\TargetProcess.Core.pdb

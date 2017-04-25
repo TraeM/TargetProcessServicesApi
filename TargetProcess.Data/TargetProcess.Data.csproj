@@ -150,6 +150,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TargetProcess.Core\TargetProcess.Core.csproj">
+      <Project>{6a077ff5-5f7a-481d-98c8-580dac7f9fc2}</Project>
+      <Name>TargetProcess.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
