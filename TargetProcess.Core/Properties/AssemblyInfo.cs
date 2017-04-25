@@ -5,14 +5,14 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle(title: "TargetProcess.Core")]
-[assembly: AssemblyDescription(description: "")]
-[assembly: AssemblyConfiguration(configuration: "")]
-[assembly: AssemblyCompany(company: "")]
-[assembly: AssemblyProduct(product: "TargetProcess.Core")]
-[assembly: AssemblyCopyright(copyright: "Copyright ©  2017")]
-[assembly: AssemblyTrademark(trademark: "")]
-[assembly: AssemblyCulture(culture: "")]
+[assembly: AssemblyTitle("TargetProcess.Core")]
+[assembly: AssemblyDescription("A development tool used to integrate Target Process' development services.")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Trae Moore")]
+[assembly: AssemblyProduct("TargetProcess.Core")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("US_en")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
@@ -35,5 +35,5 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion(version: "1.0.0.0")]
-[assembly: AssemblyFileVersion(version: "1.0.0.0")]
+[assembly: AssemblyVersion(version: "0.1.*")]
+[assembly: AssemblyFileVersion(version: "0.1.0.0")]
