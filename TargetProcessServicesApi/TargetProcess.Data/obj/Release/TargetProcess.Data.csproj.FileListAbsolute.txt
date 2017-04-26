@@ -1,0 +1,10 @@
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\bin\Release\TargetProcess.Data.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\bin\Release\TargetProcess.Data.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\obj\Release\TargetProcess.Data.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\obj\Release\TargetProcess.Data.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Data\obj\Release\TargetProcess.Data.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcessServicesApi\TargetProcess.Data\bin\Release\TargetProcess.Data.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcessServicesApi\TargetProcess.Data\bin\Release\TargetProcess.Data.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcessServicesApi\TargetProcess.Data\obj\Release\TargetProcess.Data.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcessServicesApi\TargetProcess.Data\obj\Release\TargetProcess.Data.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcessServicesApi\TargetProcess.Data\obj\Release\TargetProcess.Data.pdb

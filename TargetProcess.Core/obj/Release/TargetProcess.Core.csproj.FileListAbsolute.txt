@@ -1,5 +1,0 @@
-C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Core\bin\Release\TargetProcess.Core.dll
-C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Core\bin\Release\TargetProcess.Core.pdb
-C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Core\obj\Release\TargetProcess.Core.csprojResolveAssemblyReference.cache
-C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Core\obj\Release\TargetProcess.Core.dll
-C:\Users\User\Documents\GitHub\TargetProcessServicesApi\TargetProcess.Core\obj\Release\TargetProcess.Core.pdb
