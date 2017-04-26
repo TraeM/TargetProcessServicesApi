@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 using RestSharp;
 using RestSharp.Authenticators;
 
-using TargetProcess.Core.Extensions;
+using TargetProcess.Services.Core.Extensions;
 using TargetProcess.Services.Response;
 
 namespace TargetProcess.Services

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using TargetProcess.Data.Models;
+using TargetProcess.Services.Data.Dto;
 using TargetProcess.Services.Response;
 
 namespace TargetProcess.Services.Base

@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>TraeMoore.TargetProcess.ServicesApi</id>
+    <id>TargetProcess.RestfulServicesApi</id>
     <version>0.1.0.0</version>
-    <title>Target Process Services API</title>
+    <title>Target Process' Restful Services API</title>
     <authors>Trae Moore</authors>
     <owners>Trae Moore</owners>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/TraeM/TargetProcessServicesApi</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>An Api for connecting and interacting with Target Process' development services.</description>
+    <description>An Api for developing against Target Process' Restful services.</description>
     <releaseNotes>Initial beta release</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>target process services api targetprocess targetprocessapi targetprocessservicesapi</tags>

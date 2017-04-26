@@ -1,7 +1,7 @@
 namespace TargetProcess.Services.Base
 {
     /// <summary>
-    /// Interface ITargetProcessRequirmentsValidation
+    ///     Interface ITargetProcessRequirmentsValidation
     /// </summary>
     /// <typeparam name="TDto">The type of Dto.</typeparam>
     public interface ITargetProcessRequirmentsValidation<in TDto>

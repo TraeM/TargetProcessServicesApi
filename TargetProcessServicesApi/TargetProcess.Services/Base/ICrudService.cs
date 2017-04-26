@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-using TargetProcess.Data.Models;
+using TargetProcess.Services.Data.Dto;
 using TargetProcess.Services.Exceptions;
 using TargetProcess.Services.Response;
 
@@ -15,7 +15,7 @@ namespace TargetProcess.Services.Base
     }
 
     /// <summary>
-    /// Class CrudService.
+    ///     Class CrudService.
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <seealso cref="TargetProcess.Services.Base.RestApiService " />
@@ -27,7 +27,7 @@ namespace TargetProcess.Services.Base
         protected CrudService(IServiceRequestHandler requestHandler) : base(requestHandler) {}
 
         /// <summary>
-        /// Creates the specified model.
+        ///     Creates the specified model.
         /// </summary>
         /// <param name="model">The model.</param>
         /// <returns>Task&lt;T&gt;.</returns>
@@ -43,7 +43,7 @@ namespace TargetProcess.Services.Base
         }
 
         /// <summary>
-        /// Updates the specified model.
+        ///     Updates the specified model.
         /// </summary>
         /// <param name="model">The model.</param>
         /// <returns>Task&lt;T&gt;.</returns>
@@ -59,7 +59,7 @@ namespace TargetProcess.Services.Base
         }
 
         /// <summary>
-        /// Deletes the specified model.
+        ///     Deletes the specified model.
         /// </summary>
         /// <param name="model">The model.</param>
         /// <returns>Task&lt;DeleteResponse&gt;.</returns>
@@ -74,7 +74,7 @@ namespace TargetProcess.Services.Base
         }
 
         /// <summary>
-        /// Creates the model synchronously.
+        ///     Creates the model synchronously.
         /// </summary>
         /// <param name="model">The model.</param>
         /// <returns>T.</returns>

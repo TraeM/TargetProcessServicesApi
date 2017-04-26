@@ -1,7 +1,7 @@
 using System;
 
-using TargetProcess.Data.Models;
 using TargetProcess.Services.Base;
+using TargetProcess.Services.Data.Dto;
 
 namespace TargetProcess.Services
 {

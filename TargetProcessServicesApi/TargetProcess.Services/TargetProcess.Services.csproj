@@ -33,6 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -52,6 +53,111 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\IUndelete.cs" />
+    <Compile Include="Core\DependancyInjection\IContainer.cs" />
+    <Compile Include="Core\DependancyInjection\IocContainer.cs" />
+    <Compile Include="Core\DependancyInjection\LifeCycle.cs" />
+    <Compile Include="Core\DependancyInjection\RegisteredObject.cs" />
+    <Compile Include="Core\DependancyInjection\TypeNotRegisteredException.cs" />
+    <Compile Include="Core\Extensions\AttributeExtensions.cs" />
+    <Compile Include="Core\Extensions\StringExtensions.cs" />
+    <Compile Include="Data\CustomFieldFactory.cs" />
+    <Compile Include="Data\ICustomField.cs" />
+    <Compile Include="Data\Dto\AppContext.cs" />
+    <Compile Include="Data\Dto\Assignable.cs" />
+    <Compile Include="Data\Dto\AssignedEffort.cs" />
+    <Compile Include="Data\Dto\Assignment.cs" />
+    <Compile Include="Data\Dto\Attachment.cs" />
+    <Compile Include="Data\Dto\Bug.cs" />
+    <Compile Include="Data\Dto\BugSimpleHistory.cs" />
+    <Compile Include="Data\Dto\Build.cs" />
+    <Compile Include="Data\Dto\Comment.cs" />
+    <Compile Include="Data\Dto\Company.cs" />
+    <Compile Include="Data\Dto\ContentType.cs" />
+    <Compile Include="Data\Dto\Context.cs" />
+    <Compile Include="Data\Dto\Culture.cs" />
+    <Compile Include="Data\Dto\CustomActivity.cs" />
+    <Compile Include="Data\Dto\CustomFieldScope.cs" />
+    <Compile Include="Data\Dto\CustomRule.cs" />
+    <Compile Include="Data\Dto\EntityState.cs" />
+    <Compile Include="Data\Dto\EntityType.cs" />
+    <Compile Include="Data\Dto\Epic.cs" />
+    <Compile Include="Data\Dto\EpicSimpleHistory.cs" />
+    <Compile Include="Data\Dto\ExtendedContext.cs" />
+    <Compile Include="Data\Dto\Feature.cs" />
+    <Compile Include="Data\Dto\FeatureSimpleHistory.cs" />
+    <Compile Include="Data\Dto\Field.cs" />
+    <Compile Include="Data\Dto\FieldType.cs" />
+    <Compile Include="Data\Dto\FileAction.cs" />
+    <Compile Include="Data\Dto\General.cs" />
+    <Compile Include="Data\Dto\GeneralFollower.cs" />
+    <Compile Include="Data\Dto\GeneralUser.cs" />
+    <Compile Include="Data\Dto\GlobalSettings.cs" />
+    <Compile Include="Data\Dto\Impediment.cs" />
+    <Compile Include="Data\Dto\ImpedimentSimpleHistory.cs" />
+    <Compile Include="Data\Dto\InboundAssignable.cs" />
+    <Compile Include="Data\Dto\ITargetProcessDto.cs" />
+    <Compile Include="Data\Dto\Iteration.cs" />
+    <Compile Include="Data\Dto\Message.cs" />
+    <Compile Include="Data\Dto\MessageType.cs" />
+    <Compile Include="Data\Dto\MessageUid.cs" />
+    <Compile Include="Data\Dto\Milestone.cs" />
+    <Compile Include="Data\Dto\OutboundAssignable.cs" />
+    <Compile Include="Data\Dto\Practice.cs" />
+    <Compile Include="Data\Dto\Priority.cs" />
+    <Compile Include="Data\Dto\Process.cs" />
+    <Compile Include="Data\Dto\ProcessInfo.cs" />
+    <Compile Include="Data\Dto\Program.cs" />
+    <Compile Include="Data\Dto\Project.cs" />
+    <Compile Include="Data\Dto\ProjectAllocation.cs" />
+    <Compile Include="Data\Dto\ProjectInfo.cs" />
+    <Compile Include="Data\Dto\ProjectMember.cs" />
+    <Compile Include="Data\Dto\Relation.cs" />
+    <Compile Include="Data\Dto\RelationType.cs" />
+    <Compile Include="Data\Dto\Release.cs" />
+    <Compile Include="Data\Dto\ReleaseProject.cs" />
+    <Compile Include="Data\Dto\Request.cs" />
+    <Compile Include="Data\Dto\Requester.cs" />
+    <Compile Include="Data\Dto\RequesterSourceTypeEnum.cs" />
+    <Compile Include="Data\Dto\RequestSimpleHistory.cs" />
+    <Compile Include="Data\Dto\RequestSource.cs" />
+    <Compile Include="Data\Dto\RequestType.cs" />
+    <Compile Include="Data\Dto\Revision.cs" />
+    <Compile Include="Data\Dto\RevisionFile.cs" />
+    <Compile Include="Data\Dto\RichEditorType.cs" />
+    <Compile Include="Data\Dto\Role.cs" />
+    <Compile Include="Data\Dto\RoleEffort.cs" />
+    <Compile Include="Data\Dto\Severity.cs" />
+    <Compile Include="Data\Dto\SimpleContext.cs" />
+    <Compile Include="Data\Dto\SimpleHistory.cs" />
+    <Compile Include="Data\Dto\SsoSettings.cs" />
+    <Compile Include="Data\Dto\Tag.cs" />
+    <Compile Include="Data\Dto\Task.cs" />
+    <Compile Include="Data\Dto\TaskSimpleHistory.cs" />
+    <Compile Include="Data\Dto\Team.cs" />
+    <Compile Include="Data\Dto\TeamAssignment.cs" />
+    <Compile Include="Data\Dto\TeamInfo.cs" />
+    <Compile Include="Data\Dto\TeamIteration.cs" />
+    <Compile Include="Data\Dto\TeamMember.cs" />
+    <Compile Include="Data\Dto\TeamProject.cs" />
+    <Compile Include="Data\Dto\TeamProjectAllocation.cs" />
+    <Compile Include="Data\Dto\Term.cs" />
+    <Compile Include="Data\Dto\TestCase.cs" />
+    <Compile Include="Data\Dto\TestCaseRun.cs" />
+    <Compile Include="Data\Dto\TestCaseRunStatus.cs" />
+    <Compile Include="Data\Dto\TestPlan.cs" />
+    <Compile Include="Data\Dto\TestPlanRun.cs" />
+    <Compile Include="Data\Dto\TestRunItemHierarchyLink.cs" />
+    <Compile Include="Data\Dto\TestStep.cs" />
+    <Compile Include="Data\Dto\TestStepRun.cs" />
+    <Compile Include="Data\Dto\Time.cs" />
+    <Compile Include="Data\Dto\TpUri.cs" />
+    <Compile Include="Data\Dto\User.cs" />
+    <Compile Include="Data\Dto\UserEntityKind.cs" />
+    <Compile Include="Data\Dto\UserProjectAllocation.cs" />
+    <Compile Include="Data\Dto\UserStory.cs" />
+    <Compile Include="Data\Dto\UserStorySimpleHistory.cs" />
+    <Compile Include="Data\Dto\Workflow.cs" />
+    <Compile Include="Data\StupidExtensions.cs" />
     <Compile Include="Exceptions\TargetProcessServiceCreateEntityException.cs" />
     <Compile Include="Providers\ServiceProvider.cs" />
     <Compile Include="Providers\Exceptions\ServiceProviderConfigurationException.cs" />
@@ -92,14 +198,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TargetProcess.Core\TargetProcess.Core.csproj">
-      <Project>{6a077ff5-5f7a-481d-98c8-580dac7f9fc2}</Project>
-      <Name>TargetProcess.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TargetProcess.Data\TargetProcess.Data.csproj">
-      <Project>{cae2fed8-89d5-461a-8ef7-bd481f3f1651}</Project>
-      <Name>TargetProcess.Data</Name>
-    </ProjectReference>
+    <Content Include="LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -1,4 +1,4 @@
-using TargetProcess.Core.DependancyInjection;
+using TargetProcess.Services.Core.DependancyInjection;
 
 namespace TargetProcess.Services.Providers
 {
@@ -16,14 +16,14 @@ namespace TargetProcess.Services.Providers
     }
 
     /// <summary>
-    /// Class ServiceProvider. This class cannot be inherited.
+    ///     Class ServiceProvider. This class cannot be inherited.
     /// </summary>
-    /// <seealso cref="TargetProcess.Core.DependancyInjection.IocContainer" />
+    /// <seealso cref="IocContainer" />
     /// <seealso cref="TargetProcess.Services.Providers.IServiceProvider" />
     public sealed class ServiceProvider : IocContainer, IServiceProvider
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ServiceProvider"/> class.
+        ///     Initializes a new instance of the <see cref="ServiceProvider" /> class.
         /// </summary>
         /// <param name="requestHandler">The request handler.</param>
         public ServiceProvider(IServiceRequestHandler requestHandler)
@@ -32,13 +32,13 @@ namespace TargetProcess.Services.Providers
         }
 
         /// <summary>
-        /// Gets the request handler.
+        ///     Gets the request handler.
         /// </summary>
         /// <value>The request handler.</value>
         public IServiceRequestHandler RequestHandler { get; }
 
         /// <summary>
-        /// Registers service instances.
+        ///     Registers service instances.
         /// </summary>
         public override void Register()
         {

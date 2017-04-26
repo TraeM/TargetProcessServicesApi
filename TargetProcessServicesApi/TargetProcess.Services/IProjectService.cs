@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
 
-using TargetProcess.Data.Models;
 using TargetProcess.Services.Base;
+using TargetProcess.Services.Data.Dto;
 
 namespace TargetProcess.Services
 {
@@ -10,26 +10,26 @@ namespace TargetProcess.Services
                                        ITargetProcessRequirmentsValidation<Project> {}
 
     /// <summary>
-    /// Class ProjectService.
+    ///     Class ProjectService.
     /// </summary>
     /// <seealso cref="TargetProcess.Services.Base.CrudService{TargetProcess.Data.Models.Project}" />
     /// <seealso cref="TargetProcess.Services.IProjectService" />
     public class ProjectService : CrudService<Project>, IProjectService
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ProjectService"/> class.
+        ///     Initializes a new instance of the <see cref="ProjectService" /> class.
         /// </summary>
         /// <param name="requestHandler">The request handler.</param>
         public ProjectService(IServiceRequestHandler requestHandler) : base(requestHandler) {}
 
         /// <summary>
-        /// Gets the entity URL.
+        ///     Gets the entity URL.
         /// </summary>
         /// <value>The entity URL.</value>
         public override string EntityUrl { get; } = "Projects";
 
         /// <summary>
-        /// Validates Target Process service requirments.
+        ///     Validates Target Process service requirments.
         /// </summary>
         /// <param name="dto">The dto.</param>
         /// <returns><c>true</c> If object meets Target Process' requirments for api interaction <c>false</c> otherwise.</returns>
@@ -37,7 +37,7 @@ namespace TargetProcess.Services
             => dto.Name != null && dto.Company != null;
 
         /// <summary>
-        /// Undeletes the specified model.
+        ///     Undeletes the specified model.
         /// </summary>
         /// <param name="model">The model.</param>
         /// <returns>Task&lt;Project&gt;.</returns>
