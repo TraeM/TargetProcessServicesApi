@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 
-namespace TargetProcess.Services.Core.Extensions
+namespace TargetProcess.Core.Extensions
 {
     public static class StringExtensions
     {

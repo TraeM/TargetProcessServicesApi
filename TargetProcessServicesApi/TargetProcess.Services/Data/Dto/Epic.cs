@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     A high-level scope of work which contains Features. Can be assigned to Release. Can't be assigned to Iteration.

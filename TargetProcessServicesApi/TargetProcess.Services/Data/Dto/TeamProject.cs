@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     Any Project in which team participates.

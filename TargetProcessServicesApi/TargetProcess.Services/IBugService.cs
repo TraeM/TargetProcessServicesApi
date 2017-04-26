@@ -1,7 +1,7 @@
-using TargetProcess.Services.Base;
-using TargetProcess.Services.Data.Dto;
+using TargetProcess.Base;
+using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface IBugService : ICrudService<Bug>, IRestApiService,
                                    ITargetProcessRequirmentsValidation<Bug> {}
@@ -9,8 +9,8 @@ namespace TargetProcess.Services
     /// <summary>
     ///     Class BugService.
     /// </summary>
-    /// <seealso cref="TargetProcess.Services.Base.CrudService{TargetProcess.Data.Models.Bug}" />
-    /// <seealso cref="TargetProcess.Services.IBugService" />
+    /// <seealso cref="services.Base.CrudService{TargetProcess.Data.Models.Bug}" />
+    /// <seealso cref="services.IBugService" />
     public class BugService : CrudService<Bug>, IBugService
     {
         /// <summary>

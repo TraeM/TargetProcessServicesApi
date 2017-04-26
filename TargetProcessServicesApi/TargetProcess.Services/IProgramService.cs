@@ -1,7 +1,7 @@
-using TargetProcess.Services.Base;
-using TargetProcess.Services.Data.Dto;
+using TargetProcess.Base;
+using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface IProgramService : ICrudService<Program>, IRestApiService,
                                        ITargetProcessRequirmentsValidation<Program> {}
@@ -9,8 +9,8 @@ namespace TargetProcess.Services
     /// <summary>
     ///     Class ProgramService.
     /// </summary>
-    /// <seealso cref="TargetProcess.Services.Base.CrudService{TargetProcess.Data.Models.Program}" />
-    /// <seealso cref="TargetProcess.Services.IProgramService" />
+    /// <seealso cref="services.Base.CrudService{TargetProcess.Data.Models.Program}" />
+    /// <seealso cref="services.IProgramService" />
     public class ProgramService : CrudService<Program>, IProgramService
     {
         /// <summary>

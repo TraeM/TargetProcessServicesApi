@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     Request can represent Idea, Issue or Question from users. Bugs, User Stories and Features can be linked to

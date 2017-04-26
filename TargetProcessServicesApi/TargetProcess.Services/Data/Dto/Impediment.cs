@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     Anything that prevents a team member from working as efficiently as possible. Impediment can relate to Task, User

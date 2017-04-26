@@ -10,10 +10,10 @@ using Newtonsoft.Json;
 using RestSharp;
 using RestSharp.Authenticators;
 
-using TargetProcess.Services.Core.Extensions;
-using TargetProcess.Services.Response;
+using TargetProcess.Core.Extensions;
+using TargetProcess.Response;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface IServiceRequestHandler
     {
@@ -32,7 +32,7 @@ namespace TargetProcess.Services
     /// <summary>
     ///     Class ServiceRequestHandler.
     /// </summary>
-    /// <seealso cref="TargetProcess.Services.IServiceRequestHandler" />
+    /// <seealso cref="IServiceRequestHandler" />
     public class ServiceRequestHandler : IServiceRequestHandler
     {
         /// <summary>

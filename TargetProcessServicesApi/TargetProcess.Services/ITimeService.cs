@@ -1,7 +1,7 @@
-using TargetProcess.Services.Base;
-using TargetProcess.Services.Data.Dto;
+using TargetProcess.Base;
+using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface ITimeService : ICrudService<Time>, IRestApiService,
                                     ITargetProcessRequirmentsValidation<Time> {}
@@ -9,8 +9,8 @@ namespace TargetProcess.Services
     /// <summary>
     ///     Class TimeService.
     /// </summary>
-    /// <seealso cref="TargetProcess.Services.Base.CrudService{TargetProcess.Data.Models.Time}" />
-    /// <seealso cref="TargetProcess.Services.ITimeService" />
+    /// <seealso cref="services.Base.CrudService{TargetProcess.Data.Models.Time}" />
+    /// <seealso cref="services.ITimeService" />
     public class TimeService : CrudService<Time>, ITimeService
     {
         /// <summary>

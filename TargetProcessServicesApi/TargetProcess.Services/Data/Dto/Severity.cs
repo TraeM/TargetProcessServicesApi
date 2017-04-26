@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     Severity (badness) of Bug. For example, Blocking, Critical, Small.

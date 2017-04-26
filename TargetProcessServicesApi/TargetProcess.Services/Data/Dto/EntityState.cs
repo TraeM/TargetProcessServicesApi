@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     State of Entity. Collection of EntityStates form Workflow for Entity. For example, Bug has four EntityStates by

@@ -1,4 +1,4 @@
-﻿namespace TargetProcess.Services.Response
+﻿namespace TargetProcess.Response
 {
     /// <summary>
     ///     Class DeleteResponse.

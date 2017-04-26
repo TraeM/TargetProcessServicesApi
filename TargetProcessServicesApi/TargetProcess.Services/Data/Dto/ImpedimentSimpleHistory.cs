@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     public class ImpedimentSimpleHistory : SimpleHistory
     {

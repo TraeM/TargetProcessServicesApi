@@ -1,7 +1,7 @@
-using TargetProcess.Services.Base;
-using TargetProcess.Services.Data.Dto;
+using TargetProcess.Base;
+using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface ICommentService : ICrudService<Comment>, IRestApiService,
                                        ITargetProcessRequirmentsValidation<Comment> {}
@@ -9,8 +9,8 @@ namespace TargetProcess.Services
     /// <summary>
     ///     Class CommentService.
     /// </summary>
-    /// <seealso cref="TargetProcess.Services.Base.CrudService{TargetProcess.Data.Models.Comment}" />
-    /// <seealso cref="TargetProcess.Services.ICommentService" />
+    /// <seealso cref="services.Base.CrudService{TargetProcess.Data.Models.Comment}" />
+    /// <seealso cref="services.ICommentService" />
     public class CommentService : CrudService<Comment>, ICommentService
     {
         /// <summary>

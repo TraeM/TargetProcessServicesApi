@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     Represents an user. User has Role and can be added to project teams.

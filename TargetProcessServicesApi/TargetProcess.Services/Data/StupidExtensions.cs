@@ -1,6 +1,6 @@
-﻿using TargetProcess.Services.Data.Dto;
+﻿using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services.Data
+namespace TargetProcess.Data
 {
     public static class StupidExtensions
     {

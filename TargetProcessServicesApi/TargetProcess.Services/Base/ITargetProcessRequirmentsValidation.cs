@@ -1,4 +1,4 @@
-namespace TargetProcess.Services.Base
+namespace TargetProcess.Base
 {
     /// <summary>
     ///     Interface ITargetProcessRequirmentsValidation

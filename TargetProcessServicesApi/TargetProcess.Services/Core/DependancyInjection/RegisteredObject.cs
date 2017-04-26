@@ -1,6 +1,6 @@
 using System;
 
-namespace TargetProcess.Services.Core.DependancyInjection
+namespace TargetProcess.Core.DependancyInjection
 {
     internal class RegisteredObject
     {

@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     Effort for Assignable by Role. For example, User Story can have 5 hours of Developer effort + 3 hours of Tester

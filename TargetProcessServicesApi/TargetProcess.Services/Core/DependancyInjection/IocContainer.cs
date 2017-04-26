@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TargetProcess.Services.Core.DependancyInjection
+namespace TargetProcess.Core.DependancyInjection
 {
     public interface IIocContainer
     {

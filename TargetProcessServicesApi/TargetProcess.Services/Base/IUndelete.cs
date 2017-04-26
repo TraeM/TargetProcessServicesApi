@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace TargetProcess.Services.Base
+namespace TargetProcess.Base
 {
     public interface IUndelete<T>
     {

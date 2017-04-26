@@ -1,4 +1,4 @@
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     Describes what happens with file. The enum is used for Source Control Components.

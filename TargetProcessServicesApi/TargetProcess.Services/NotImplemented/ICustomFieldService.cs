@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface ICustomFieldService {}
 

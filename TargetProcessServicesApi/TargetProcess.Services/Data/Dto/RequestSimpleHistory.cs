@@ -1,4 +1,4 @@
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     public class RequestSimpleHistory {}
 }

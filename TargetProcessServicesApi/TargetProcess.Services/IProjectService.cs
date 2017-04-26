@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
 
-using TargetProcess.Services.Base;
-using TargetProcess.Services.Data.Dto;
+using TargetProcess.Base;
+using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface IProjectService : ICrudService<Project>, IUndelete<Project>, IRestApiService,
                                        ITargetProcessRequirmentsValidation<Project> {}
@@ -12,8 +12,8 @@ namespace TargetProcess.Services
     /// <summary>
     ///     Class ProjectService.
     /// </summary>
-    /// <seealso cref="TargetProcess.Services.Base.CrudService{TargetProcess.Data.Models.Project}" />
-    /// <seealso cref="TargetProcess.Services.IProjectService" />
+    /// <seealso cref="services.Base.CrudService{TargetProcess.Data.Models.Project}" />
+    /// <seealso cref="services.IProjectService" />
     public class ProjectService : CrudService<Project>, IProjectService
     {
         /// <summary>

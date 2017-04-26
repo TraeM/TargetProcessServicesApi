@@ -1,7 +1,7 @@
-﻿using TargetProcess.Services.Base;
-using TargetProcess.Services.Data.Dto;
+﻿using TargetProcess.Base;
+using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface IFeatureService : IRestApiService, ICrudService<Feature>,
                                        ITargetProcessRequirmentsValidation<Feature> {}
@@ -9,8 +9,8 @@ namespace TargetProcess.Services
     /// <summary>
     ///     Class FeatureService.
     /// </summary>
-    /// <seealso cref="TargetProcess.Services.Base.CrudService{TargetProcess.Data.Models.Feature}" />
-    /// <seealso cref="TargetProcess.Services.IFeatureService" />
+    /// <seealso cref="services.Base.CrudService{TargetProcess.Data.Models.Feature}" />
+    /// <seealso cref="services.IFeatureService" />
     public class FeatureService : CrudService<Feature>, IFeatureService
     {
         /// <summary>

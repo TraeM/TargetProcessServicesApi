@@ -8,16 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TargetProcess.Services {
+namespace TargetProcess {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
-    internal sealed partial class servicesSettings : global::System.Configuration.ApplicationSettingsBase {
+    internal sealed partial class ServiceSettings : global::System.Configuration.ApplicationSettingsBase {
         
-        private static servicesSettings defaultInstance = ((servicesSettings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new servicesSettings())));
+        private static ServiceSettings defaultInstance = ((ServiceSettings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new ServiceSettings())));
         
-        public static servicesSettings Default {
+        public static ServiceSettings Default {
             get {
                 return defaultInstance;
             }
@@ -25,7 +25,7 @@ namespace TargetProcess.Services {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
         public int api_version {
             get {
                 return ((int)(this["api_version"]));

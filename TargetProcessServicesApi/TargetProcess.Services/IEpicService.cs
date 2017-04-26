@@ -1,15 +1,15 @@
-using TargetProcess.Services.Base;
-using TargetProcess.Services.Data.Dto;
+using TargetProcess.Base;
+using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface IEpicService : IRestApiService, ICrudService<Epic>, ITargetProcessRequirmentsValidation<Epic> {}
 
     /// <summary>
     ///     Class EpicService.
     /// </summary>
-    /// <seealso cref="TargetProcess.Services.Base.CrudService{TargetProcess.Data.Models.Epic}" />
-    /// <seealso cref="TargetProcess.Services.IEpicService" />
+    /// <seealso cref="services.Base.CrudService{TargetProcess.Data.Models.Epic}" />
+    /// <seealso cref="services.IEpicService" />
     public class EpicService : CrudService<Epic>, IEpicService
     {
         /// <summary>

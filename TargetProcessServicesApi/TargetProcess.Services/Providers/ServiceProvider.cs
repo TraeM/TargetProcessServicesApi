@@ -1,6 +1,6 @@
-using TargetProcess.Services.Core.DependancyInjection;
+using TargetProcess.Core.DependancyInjection;
 
-namespace TargetProcess.Services.Providers
+namespace TargetProcess.Providers
 {
     /// <summary>
     ///     Interface IServiceProvider.
@@ -19,7 +19,7 @@ namespace TargetProcess.Services.Providers
     ///     Class ServiceProvider. This class cannot be inherited.
     /// </summary>
     /// <seealso cref="IocContainer" />
-    /// <seealso cref="TargetProcess.Services.Providers.IServiceProvider" />
+    /// <seealso cref="IServiceProvider" />
     public sealed class ServiceProvider : IocContainer, IServiceProvider
     {
         /// <summary>

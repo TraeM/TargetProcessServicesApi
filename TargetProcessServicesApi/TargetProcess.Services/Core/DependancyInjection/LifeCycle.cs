@@ -1,4 +1,4 @@
-namespace TargetProcess.Services.Core.DependancyInjection
+namespace TargetProcess.Core.DependancyInjection
 {
     public enum LifeCycle
     {

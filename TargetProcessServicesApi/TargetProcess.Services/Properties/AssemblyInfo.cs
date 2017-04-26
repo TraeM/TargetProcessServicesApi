@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("TargetProcess.Services")]
+[assembly: AssemblyTitle("TargetProcess.ServiceSettings")]
 [assembly: AssemblyDescription("A development tool used to integrate Target Process' development services.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Trae Moore")]
-[assembly: AssemblyProduct("TargetProcess.Services")]
+[assembly: AssemblyProduct("TargetProcess.ServiceSettings")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

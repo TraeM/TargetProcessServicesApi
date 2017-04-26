@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
 
-using TargetProcess.Services.Data.Dto;
-using TargetProcess.Services.Exceptions;
-using TargetProcess.Services.Response;
+using TargetProcess.Data.Dto;
+using TargetProcess.Exceptions;
+using TargetProcess.Response;
 
-namespace TargetProcess.Services.Base
+namespace TargetProcess.Base
 {
     public interface ICrudService<T> where T : ITargetProcessDto
     {
@@ -18,8 +18,8 @@ namespace TargetProcess.Services.Base
     ///     Class CrudService.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    /// <seealso cref="TargetProcess.Services.Base.RestApiService " />
-    /// <seealso cref="TargetProcess.Services.Base.ICrudService{T}" />
+    /// <seealso cref="RestApiService " />
+    /// <seealso cref="ICrudService{T}" />
     public abstract class CrudService<T> : RestApiService, ICrudService<T> where T : ITargetProcessDto
     {
         public abstract override string EntityUrl { get; }

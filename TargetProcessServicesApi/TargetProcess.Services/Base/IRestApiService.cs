@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using TargetProcess.Services.Data.Dto;
-using TargetProcess.Services.Response;
+using TargetProcess.Data.Dto;
+using TargetProcess.Response;
 
-namespace TargetProcess.Services.Base
+namespace TargetProcess.Base
 {
     public interface IRestApiService : IRestServiceUrl
     {
@@ -45,9 +45,9 @@ namespace TargetProcess.Services.Base
         ///     Gets the API version.
         /// </summary>
         /// <value>The API version.</value>
-        public int ApiVersion { get; } = servicesSettings.Default.api_version < 1
+        public int ApiVersion { get; } = ServiceSettings.Default.api_version < 1
             ? 1
-            : servicesSettings.Default.api_version;
+            : ServiceSettings.Default.api_version;
 
         /// <summary>
         ///     Sends a delete request.

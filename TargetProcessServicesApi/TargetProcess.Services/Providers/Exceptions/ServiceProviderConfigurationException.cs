@@ -1,6 +1,6 @@
 using System;
 
-namespace TargetProcess.Services.Providers.Exceptions
+namespace TargetProcess.Providers.Exceptions
 {
     /// <summary>
     ///     Class ServiceProviderConfigurationException.

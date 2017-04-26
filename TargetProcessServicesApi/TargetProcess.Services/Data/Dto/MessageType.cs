@@ -1,4 +1,4 @@
-namespace TargetProcess.Services.Data.Dto
+namespace TargetProcess.Data.Dto
 {
     /// <summary>
     ///     Describes the type of the Message.

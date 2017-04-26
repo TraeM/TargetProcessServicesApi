@@ -1,8 +1,8 @@
 using System;
 
-using TargetProcess.Services.Base;
+using TargetProcess.Base;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface IPriorityService {}
 

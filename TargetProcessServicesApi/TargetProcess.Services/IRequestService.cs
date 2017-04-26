@@ -1,7 +1,7 @@
-﻿using TargetProcess.Services.Base;
-using TargetProcess.Services.Data.Dto;
+﻿using TargetProcess.Base;
+using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface IRequestService : ICrudService<Request>, IRestApiService,
                                        ITargetProcessRequirmentsValidation<Request> {}
@@ -9,8 +9,8 @@ namespace TargetProcess.Services
     /// <summary>
     ///     Class RequestService.
     /// </summary>
-    /// <seealso cref="TargetProcess.Services.Base.CrudService{TargetProcess.Data.Models.Request}" />
-    /// <seealso cref="TargetProcess.Services.IRequestService" />
+    /// <seealso cref="services.Base.CrudService{TargetProcess.Data.Models.Request}" />
+    /// <seealso cref="services.IRequestService" />
     public class RequestService : CrudService<Request>, IRequestService
     {
         /// <summary>

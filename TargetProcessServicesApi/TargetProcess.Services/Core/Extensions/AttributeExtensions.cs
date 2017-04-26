@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace TargetProcess.Services.Core.Extensions
+namespace TargetProcess.Core.Extensions
 {
     public static class AttributeExtensions
     {

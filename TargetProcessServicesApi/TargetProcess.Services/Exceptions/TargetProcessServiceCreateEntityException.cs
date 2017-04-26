@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TargetProcess.Services.Exceptions
+namespace TargetProcess.Exceptions
 {
     /// <summary>
     ///     Class TargetProcessServiceCreateEntityException.

@@ -1,9 +1,9 @@
 using System;
 
-using TargetProcess.Services.Base;
-using TargetProcess.Services.Data.Dto;
+using TargetProcess.Base;
+using TargetProcess.Data.Dto;
 
-namespace TargetProcess.Services
+namespace TargetProcess
 {
     public interface IUserService : ITargetProcessRequirmentsValidation<User> {}
 

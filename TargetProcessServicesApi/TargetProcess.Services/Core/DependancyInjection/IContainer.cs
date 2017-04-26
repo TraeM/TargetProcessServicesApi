@@ -1,3 +1,3 @@
-namespace TargetProcess.Services.Core.DependancyInjection
+namespace TargetProcess.Core.DependancyInjection
 {
 }

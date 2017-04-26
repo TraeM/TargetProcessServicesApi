@@ -1,6 +1,6 @@
 using System;
 
-namespace TargetProcess.Services.Core.DependancyInjection
+namespace TargetProcess.Core.DependancyInjection
 {
     public class TypeNotRegisteredException : Exception
     {
