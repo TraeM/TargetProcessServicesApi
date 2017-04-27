@@ -53,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\IUndelete.cs" />
-    <Compile Include="Core\DependancyInjection\IContainer.cs" />
     <Compile Include="Core\DependancyInjection\IocContainer.cs" />
     <Compile Include="Core\DependancyInjection\LifeCycle.cs" />
     <Compile Include="Core\DependancyInjection\RegisteredObject.cs" />
@@ -162,25 +161,25 @@
     <Compile Include="Providers\ServiceProvider.cs" />
     <Compile Include="Providers\Exceptions\ServiceProviderConfigurationException.cs" />
     <Compile Include="Response\DeleteResponse.cs" />
-    <Compile Include="IBugService.cs" />
-    <Compile Include="ICommentService.cs" />
+    <Compile Include="Services\IBugService.cs" />
+    <Compile Include="Services\ICommentService.cs" />
     <Compile Include="Base\ICrudService.cs" />
     <Compile Include="NotImplemented\ICustomFieldService.cs" />
-    <Compile Include="IFeatureService.cs" />
-    <Compile Include="ICompanyService.cs" />
+    <Compile Include="Services\IFeatureService.cs" />
+    <Compile Include="Services\ICompanyService.cs" />
     <Compile Include="NotImplemented\IPriorityService.cs" />
-    <Compile Include="IProgramService.cs" />
-    <Compile Include="IEpicService.cs" />
-    <Compile Include="IProjectService.cs" />
-    <Compile Include="IRequestService.cs" />
+    <Compile Include="Services\IProgramService.cs" />
+    <Compile Include="Services\IEpicService.cs" />
+    <Compile Include="Services\IProjectService.cs" />
+    <Compile Include="Services\IRequestService.cs" />
     <Compile Include="Base\IRestApiService.cs" />
     <Compile Include="Base\IRestServiceUrl.cs" />
     <Compile Include="NotImplemented\IRoleService.cs" />
     <Compile Include="Base\ITargetProcessRequirmentsValidation.cs" />
-    <Compile Include="ITaskService.cs" />
-    <Compile Include="ITimeService.cs" />
+    <Compile Include="Services\ITaskService.cs" />
+    <Compile Include="Services\ITimeService.cs" />
     <Compile Include="NotImplemented\IUserService.cs" />
-    <Compile Include="IUserStoryService.cs" />
+    <Compile Include="Services\IUserStoryService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IServiceRequestHandler.cs" />
     <Compile Include="ServiceSettings.Designer.cs">

@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TargetProcess.RestfulServicesApi</id>
-    <version>0.1.0.0</version>
+    <version>0.1.2.0</version>
     <title>Target Process' Restful Services API</title>
     <authors>Trae Moore</authors>
     <owners>Trae Moore</owners>

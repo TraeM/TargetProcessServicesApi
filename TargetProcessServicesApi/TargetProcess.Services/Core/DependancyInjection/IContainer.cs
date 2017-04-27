@@ -1,3 +1,0 @@
-namespace TargetProcess.Core.DependancyInjection
-{
-}
