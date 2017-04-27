@@ -49,3 +49,5 @@ Temporary Items
 *.nupkg
 *.dll
 *.pdb
+*.user
+*.GhostDoc.xml
