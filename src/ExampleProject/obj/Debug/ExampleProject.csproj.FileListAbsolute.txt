@@ -1,0 +1,12 @@
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\obj\Debug\ExampleProject.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\bin\Debug\ExampleProject.exe.config
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\bin\Debug\ExampleProject.exe
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\bin\Debug\ExampleProject.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\bin\Debug\TargetProcess.Services.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\bin\Debug\RestSharp.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\bin\Debug\TargetProcess.Services.pdb
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\bin\Debug\RestSharp.xml
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\obj\Debug\ExampleProject.exe
+C:\Users\User\Documents\GitHub\TargetProcessServicesApi\src\ExampleProject\obj\Debug\ExampleProject.pdb

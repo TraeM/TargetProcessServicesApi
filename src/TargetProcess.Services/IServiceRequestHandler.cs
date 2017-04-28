@@ -15,7 +15,7 @@ using TargetProcess.Response;
 
 namespace TargetProcess
 {
-    public interface IServiceRequestHandler
+    public interface  IServiceRequestHandler
     {
         string Username { get; }
         SecureString Password { get; }
