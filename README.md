@@ -33,7 +33,7 @@ an api built for interacting with Target Process' RestFUL api.
 	        var commentService = serviceProvider.FetchInstance<ICommentService>();
 	        var featureService = serviceProvider.FetchInstance<IFeatureService>();
 	        var timeService = serviceProvider.FetchInstance<ITimeService>();
-	        var fetchInstance = serviceProvider.FetchInstance<IUserService>();
+	        var userService = serviceProvider.FetchInstance<IUserService>();
 	        var requestService = serviceProvider.FetchInstance<IRequestService>();
 	        var projectService = serviceProvider.FetchInstance<IProjectService>();
 	    }
